@@ -1,6 +1,6 @@
 ﻿using System;
 using BrazilianDocuments.Validators;
-using DocumentosBrasileiros.Validadores;
+using DocumentosBrasileirosX.Validadores;
 
 namespace BrazilianDocumentsTester
 {
@@ -206,7 +206,7 @@ namespace BrazilianDocumentsTester
             Console.BackgroundColor = corDeTituloDocumentosBrasileiros;
             Console.ForegroundColor = corDeTituloDestacadoDocumentosBrasileiros;
             Console.WriteLine("+============================================================================================================+");
-            Console.WriteLine("||                       Pacote DocumentosBrasileiros  /  DocumentosBrasileiros Package                     ||");
+            Console.WriteLine("||                       Pacote DocumentosBrasileirosX  /  DocumentosBrasileirosX Package                   ||");
             Console.WriteLine("+============================================================================================================+");
             Console.WriteLine("||                    SELECIONE A ROTINA DE VALIDAÇÃO  /  SELECT THE VALIDATION ROUTINE                     ||");
             Console.WriteLine("+============================================================================================================+");
@@ -506,66 +506,66 @@ namespace BrazilianDocumentsTester
             }
         }
 
-        private static DocumentosBrasileiros.Validadores.UnidadeDaFederacao ConverteUfStringParaUf_DocumentosBrasileiros(string ufString)
+        private static DocumentosBrasileirosX.Validadores.UnidadeDaFederacao ConverteUfStringParaUf_DocumentosBrasileiros(string ufString)
         {
             switch (ufString.ToUpper())
             {
                 case "AC":
-                    return DocumentosBrasileiros.Validadores.UnidadeDaFederacao.AC;
+                    return DocumentosBrasileirosX.Validadores.UnidadeDaFederacao.AC;
                 case "AL":
-                    return DocumentosBrasileiros.Validadores.UnidadeDaFederacao.AL;
+                    return DocumentosBrasileirosX.Validadores.UnidadeDaFederacao.AL;
                 case "AM":
-                    return DocumentosBrasileiros.Validadores.UnidadeDaFederacao.AM;
+                    return DocumentosBrasileirosX.Validadores.UnidadeDaFederacao.AM;
                 case "AP":
-                    return DocumentosBrasileiros.Validadores.UnidadeDaFederacao.AP;
+                    return DocumentosBrasileirosX.Validadores.UnidadeDaFederacao.AP;
                 case "BA":
-                    return DocumentosBrasileiros.Validadores.UnidadeDaFederacao.BA;
+                    return DocumentosBrasileirosX.Validadores.UnidadeDaFederacao.BA;
                 case "CE":
-                    return DocumentosBrasileiros.Validadores.UnidadeDaFederacao.CE;
+                    return DocumentosBrasileirosX.Validadores.UnidadeDaFederacao.CE;
                 case "DF":
-                    return DocumentosBrasileiros.Validadores.UnidadeDaFederacao.DF;
+                    return DocumentosBrasileirosX.Validadores.UnidadeDaFederacao.DF;
                 case "ES":
-                    return DocumentosBrasileiros.Validadores.UnidadeDaFederacao.ES;
+                    return DocumentosBrasileirosX.Validadores.UnidadeDaFederacao.ES;
                 case "GO":
-                    return DocumentosBrasileiros.Validadores.UnidadeDaFederacao.GO;
+                    return DocumentosBrasileirosX.Validadores.UnidadeDaFederacao.GO;
                 case "MA":
-                    return DocumentosBrasileiros.Validadores.UnidadeDaFederacao.MA;
+                    return DocumentosBrasileirosX.Validadores.UnidadeDaFederacao.MA;
                 case "MT":
-                    return DocumentosBrasileiros.Validadores.UnidadeDaFederacao.MT;
+                    return DocumentosBrasileirosX.Validadores.UnidadeDaFederacao.MT;
                 case "MS":
-                    return DocumentosBrasileiros.Validadores.UnidadeDaFederacao.MS;
+                    return DocumentosBrasileirosX.Validadores.UnidadeDaFederacao.MS;
                 case "MG":
-                    return DocumentosBrasileiros.Validadores.UnidadeDaFederacao.MG;
+                    return DocumentosBrasileirosX.Validadores.UnidadeDaFederacao.MG;
                 case "PA":
-                    return DocumentosBrasileiros.Validadores.UnidadeDaFederacao.PA;
+                    return DocumentosBrasileirosX.Validadores.UnidadeDaFederacao.PA;
                 case "PB":
-                    return DocumentosBrasileiros.Validadores.UnidadeDaFederacao.PB;
+                    return DocumentosBrasileirosX.Validadores.UnidadeDaFederacao.PB;
                 case "PE":
-                    return DocumentosBrasileiros.Validadores.UnidadeDaFederacao.PE;
+                    return DocumentosBrasileirosX.Validadores.UnidadeDaFederacao.PE;
                 case "PI":
-                    return DocumentosBrasileiros.Validadores.UnidadeDaFederacao.PI;
+                    return DocumentosBrasileirosX.Validadores.UnidadeDaFederacao.PI;
                 case "PR":
-                    return DocumentosBrasileiros.Validadores.UnidadeDaFederacao.PR;
+                    return DocumentosBrasileirosX.Validadores.UnidadeDaFederacao.PR;
                 case "RJ":
-                    return DocumentosBrasileiros.Validadores.UnidadeDaFederacao.RJ;
+                    return DocumentosBrasileirosX.Validadores.UnidadeDaFederacao.RJ;
                 case "RN":
-                    return DocumentosBrasileiros.Validadores.UnidadeDaFederacao.RN;
+                    return DocumentosBrasileirosX.Validadores.UnidadeDaFederacao.RN;
                 case "RO":
-                    return DocumentosBrasileiros.Validadores.UnidadeDaFederacao.RO;
+                    return DocumentosBrasileirosX.Validadores.UnidadeDaFederacao.RO;
                 case "RR":
-                    return DocumentosBrasileiros.Validadores.UnidadeDaFederacao.RR;
+                    return DocumentosBrasileirosX.Validadores.UnidadeDaFederacao.RR;
                 case "RS":
-                    return DocumentosBrasileiros.Validadores.UnidadeDaFederacao.RS;
+                    return DocumentosBrasileirosX.Validadores.UnidadeDaFederacao.RS;
                 case "SC":
-                    return DocumentosBrasileiros.Validadores.UnidadeDaFederacao.SC;
+                    return DocumentosBrasileirosX.Validadores.UnidadeDaFederacao.SC;
                 case "SE":
-                    return DocumentosBrasileiros.Validadores.UnidadeDaFederacao.SE;
+                    return DocumentosBrasileirosX.Validadores.UnidadeDaFederacao.SE;
                 case "SP":
-                    return DocumentosBrasileiros.Validadores.UnidadeDaFederacao.SP;
+                    return DocumentosBrasileirosX.Validadores.UnidadeDaFederacao.SP;
                 case "TO":
-                    return DocumentosBrasileiros.Validadores.UnidadeDaFederacao.TO;
+                    return DocumentosBrasileirosX.Validadores.UnidadeDaFederacao.TO;
                 default:
-                    return DocumentosBrasileiros.Validadores.UnidadeDaFederacao.TO;
+                    return DocumentosBrasileirosX.Validadores.UnidadeDaFederacao.TO;
             }
         }
 
@@ -577,7 +577,7 @@ namespace BrazilianDocumentsTester
             Console.WriteLine("");
             Console.BackgroundColor = corDeTitulo;
             Console.WriteLine("+============================================================================================================+");
-            Console.WriteLine("||                         Teste do validador de CEP / \"Zip code\" validator test                          ||");
+            Console.WriteLine("||                         Teste do validador de CEP / \"Zip code\" validator test                            ||");
             Console.WriteLine("+============================================================================================================+");
             Console.BackgroundColor = corDeFundo;
             Console.WriteLine("");
@@ -1172,7 +1172,7 @@ namespace BrazilianDocumentsTester
             Console.BackgroundColor = corDeFundo;
             Console.WriteLine("");
 
-            DocumentosBrasileiros.Validadores.UnidadeDaFederacao uf = ConverteUfStringParaUf_DocumentosBrasileiros(ufString);
+            DocumentosBrasileirosX.Validadores.UnidadeDaFederacao uf = ConverteUfStringParaUf_DocumentosBrasileiros(ufString);
 
             Console.Write("Limpar: ");
             inscricaoEstadual = InscricaoEstadualValidador.Limpar(inscricaoEstadual);
@@ -1220,7 +1220,7 @@ namespace BrazilianDocumentsTester
             Console.WriteLine("");
             Console.BackgroundColor = corDeTitulo;
             Console.WriteLine("+============================================================================================================+");
-            Console.WriteLine("||                         Teste do validador de CEP / \"Zip code\" validator test                          ||");
+            Console.WriteLine("||                         Teste do validador de CEP / \"Zip code\" validator test                            ||");
             Console.WriteLine("+============================================================================================================+");
             Console.BackgroundColor = corDeFundo;
             Console.WriteLine("");
